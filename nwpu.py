@@ -24,8 +24,8 @@ cookie = cookielib.CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 #创建字典存放表单信息
 params = {
-"USER":"2015262607",
-"PASSWORD":"2015262607",
+"USER":"Your name",
+"PASSWORD":"Your password",
 "TYPE":"AUTH"
 }
 #首次提交请求登录
